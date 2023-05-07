@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#9EBFDA"
+        android:orientation="vertical">
+
+    <TextView
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="enter your favourite sities"
+        />
+
+        <EditText
+            android:layout_margin="10dp"
+
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/editText_town1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter town 1"/>
+
+    <EditText
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/editText_town2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter town 2"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:layout_margin="10dp"
+
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/editText_town3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter town 3"
+        android:gravity="center_horizontal"
+
+        android:minHeight="48dp" />
+
+        <Button
+            android:layout_gravity="center_horizontal"
+
+            android:id="@+id/button_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"/>
+    </LinearLayout>
